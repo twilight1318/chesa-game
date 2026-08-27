@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Thangoo ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div id="stars"></div>
+    <div id="hearts"></div>
+
+    <main class="game">
+
+        <!-- LEVEL 1 -->
+        <section id="level1" class="level active">
+
+            <div class="big-heart">❤️</div>
+
+            <h1>Hey Thangoo…</h1>
+
+            <p class="typing">
+                Unakkaga oru small game...
+            </p>
+
+            <p>
+                Ending varaikum play pannu. 🥺
+            </p>
+
+            <button onclick="nextLevel(2)">
+                Start Game ❤️
+            </button>
+
+        </section>
+
+
+        <!-- LEVEL 2 -->
+        <section id="level2" class="level">
+
+            <div class="emoji">🕊️</div>
+
+            <h2>Level 2</h2>
+
+            <p>
+                Thangoo…
+            </p>
+
+            <h3>“Ceasefire”</h3>
+
+            <p>
+                Indha word sonna…
+                <br>
+                namma memory nyabagam irukka? 🥹
+            </p>
+
+            <button onclick="nextLevel(3)">
+                Yes… I remember ❤️
+            </button>
+
+        </section>
+
+
+        <!-- LEVEL 3 -->
+        <section id="level3" class="level">
+
+            <div class="emoji">✨</div>
+
+            <h2>Level 3</h2>
+
+            <p>
+                Innaiku unna paathadhum…
+            </p>
+
+            <button onclick="showSaree()">
+                What happened? 👀
+            </button>
+
+            <div id="sareeMessage" class="hidden">
+
+                <p class="special">
+                    “Innaiku Onam saree-la
+                    romba azhaga irundha di Thangoo…” ❤️
+                </p>
+
+                <p>
+                    Unna paatha andha moment
+                    en mind-la irundhute irukku. 🥹
+                </p>
+
+                <button onclick="nextLevel(4)">
+                    Continue ❤️
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEVEL 4 -->
+        <section id="level4" class="level">
+
+            <div class="emoji">💌</div>
+
+            <h2>Level 4</h2>
+
+            <h3>One Last Question…</h3>
+
+            <p>
+                Thangoo… oru last question kekkava? 🥺
+            </p>
+
+            <p>
+                Naan unna ivlo miss panren…
+                <br>
+                adhukku reason unakku theriyuma?
+            </p>
+
+            <button onclick="showFinal()">
+                Tell me ❤️
+            </button>
+
+            <div id="finalMessage" class="hidden">
+
+                <p>
+                    Enakkum theriyala di Thangoo…
+                </p>
+
+                <p>
+                    Nee enakku romba special-a aayitta. ❤️
+                </p>
+
+                <button onclick="nextLevel(5)">
+                    One More Thing… 💌
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEVEL 5 -->
+        <section id="level5" class="level">
+
+            <div class="emoji secret">🔐</div>
+
+            <h2>Secret Level</h2>
+
+            <p>
+                Wait…
+                <br>
+                இன்னும் ஒரு secret irukku. 👀❤️
+            </p>
+
+            <button onclick="showSecret()">
+                Open Secret 💌
+            </button>
+
+            <div id="secretMessage" class="hidden">
+
+                <p class="special">
+                    Thangoo…
+                </p>
+
+                <p>
+                    Evlo levels create pannalum,
+                    unna miss panradha explain panna
+                    oru level podhuma nu theriyala. 🥹
+                </p>
+
+                <button onclick="showEnding()">
+                    Finish ❤️
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL -->
+        <section id="ending" class="level final">
+
+            <div class="big-heart">❤️</div>
+
+            <h1>Thangoo…</h1>
+
+            <p class="final-text">
+                Unna romba miss panren di…
+            </p>
+
+            <p class="final-text">
+                <strong>
+                    Yen nu theriyala.
+                </strong>
+            </p>
+
+            <p>
+                Maybe because…
+                <br>
+                nee enakku romba special. ❤️
+            </p>
+
+            <p class="from">
+                — Deeku ❤️
+            </p>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
